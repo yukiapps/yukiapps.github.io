@@ -6,8 +6,17 @@
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#ffffff">
   <meta name="description" content="Still Rhythmは、心拍と予定を重ねて一日の身体反応の流れを振り返り、呼吸でひと区切りをつくるiPhoneアプリです。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Still Rhythm｜yukiapps">
+  <meta property="og:description" content="自分のリズムに気づき、静かに戻る。心拍と予定を重ねて一日を振り返るiPhoneアプリです。">
+  <meta property="og:url" content="https://yukiapps.github.io/still-rhythm.html">
+  <meta property="og:image" content="https://yukiapps.github.io/still-rhythm-ogp-1200x630.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Still Rhythm 自分のリズムに気づき、静かに戻る。">
+  <meta name="twitter:card" content="summary_large_image">
   <title>Still Rhythm｜yukiapps</title>
-  <link rel="stylesheet" href="yukiapps-20260810-v16.css">
+  <link rel="stylesheet" href="yukiapps-20260810-v17.css">
 </head>
 <body>
   <a class="skip-link" href="#main">本文へ移動</a>
@@ -29,9 +38,7 @@
       <div class="container app-hero-grid">
         <div class="app-hero-copy">
           <div class="app-title-lockup">
-            <span class="rhythm-title-mark" aria-hidden="true">
-              <span class="rhythm-mark"><span></span><span></span><span></span><span></span><span></span></span>
-            </span>
+            <img class="app-title-icon" src="still-rhythm-icon.png" width="1024" height="1024" alt="Still Rhythmのアプリアイコン">
             <div>
               <h1>Still Rhythm</h1>
               <p>iPhoneアプリ</p>
@@ -50,17 +57,9 @@
           </div>
         </div>
 
-        <div class="still-hero-panel">
-          <div>
-            <p class="eyebrow">24H Rhythm</p>
-            <h2>一日の波を、静かに眺める</h2>
-          </div>
-          <svg class="still-wave" viewBox="0 0 640 180" role="img" aria-label="一日の身体反応の流れを表す抽象的な波形">
-            <path d="M12 94 C78 94 78 58 144 58 S210 128 276 128 342 74 408 74 474 112 540 112 594 86 628 86" fill="none" stroke-width="34" stroke-linecap="round"/>
-            <path d="M12 94 C78 94 78 58 144 58 S210 128 276 128 342 74 408 74 474 112 540 112 594 86 628 86" fill="none" stroke-width="5" stroke-linecap="round"/>
-          </svg>
-          <p class="still-panel-note">Today・Calendar・Insightsで身体反応の傾向を振り返り、Breatheで今の時間に区切りをつくります。</p>
-        </div>
+        <figure class="still-hero-visual">
+          <img src="still-rhythm-web-hero-visual-1600x1200.webp" width="1600" height="1200" alt="Still RhythmのToday画面とBreathe画面" fetchpriority="high">
+        </figure>
       </div>
     </section>
 
@@ -74,33 +73,42 @@
       </div>
     </section>
 
-    <section class="still-feature-section">
-      <div class="container still-feature-grid">
-        <article class="still-feature-card">
-          <p class="eyebrow accent-eyebrow">Today</p>
-          <h2>身体反応の流れを見る</h2>
-          <p>心拍数、安静時心拍数、心拍変動をもとに、直近24時間の身体反応の傾向を端末内で表示します。</p>
-        </article>
-        <article class="still-feature-card">
-          <p class="eyebrow accent-eyebrow">Calendar</p>
-          <h2>予定と一日を重ねる</h2>
-          <p>選択したカレンダーの予定と身体反応の流れを重ね、どのような一日だったかを時間の流れに沿って振り返れます。</p>
-        </article>
-        <article class="still-feature-card">
-          <p class="eyebrow accent-eyebrow">Insights</p>
-          <h2>自分のパターンを知る</h2>
-          <p>曜日ごとの傾向や、今日と過去4週間を重ねた時間帯別のリズムから、自分らしい一日の波を見つめられます。</p>
-        </article>
+    <section class="visual-story">
+      <div class="container story-grid">
+        <div class="story-copy">
+          <p class="eyebrow accent-eyebrow">Today &amp; Calendar</p>
+          <h2>身体反応と予定を、一日の流れで</h2>
+          <p>心拍数、安静時心拍数、心拍変動をもとに、直近24時間の身体反応の傾向を表示します。選択したカレンダーの予定と重ね、どのような一日だったかを時間の流れに沿って振り返れます。</p>
+        </div>
+        <figure class="showcase-frame still-showcase-frame">
+          <img class="showcase-image" src="still-rhythm-web-feature-rhythm-1600x1000.webp" width="1600" height="1000" loading="lazy" alt="Still Rhythmの24H RHYTHM画面">
+        </figure>
       </div>
     </section>
 
-    <section class="still-feature-section still-feature-section--soft">
-      <div class="container concept-grid">
-        <div>
+    <section class="visual-story visual-story-soft">
+      <div class="container story-grid story-grid-reverse">
+        <div class="story-copy">
+          <p class="eyebrow accent-eyebrow">Insights</p>
+          <h2>自分らしい一日の波を見つめる</h2>
+          <p>曜日ごとの傾向や、今日と過去4週間を重ねた時間帯別のリズムから、自分のパターンを静かに振り返れます。</p>
+        </div>
+        <figure class="showcase-frame still-showcase-frame">
+          <img class="showcase-image" src="still-rhythm-web-feature-insights-1600x1000.webp" width="1600" height="1000" loading="lazy" alt="Still RhythmのInsights画面と曜日別グラフ">
+        </figure>
+      </div>
+    </section>
+
+    <section class="visual-story">
+      <div class="container story-grid">
+        <div class="story-copy">
           <p class="eyebrow accent-eyebrow">Breathe</p>
           <h2>呼吸で、ひと区切り</h2>
+          <p>1〜5分の呼吸セッションを選べます。10秒のゆったりした周期と、吸う時だけに伝わる柔らかな感触が、画面を見続けなくても呼吸の流れを支えます。</p>
         </div>
-        <p>1〜5分の呼吸セッションを選べます。10秒のゆったりした周期と、吸う時だけに伝わる柔らかな感触が、画面を見続けなくても呼吸の流れを支えます。</p>
+        <figure class="showcase-frame still-showcase-frame">
+          <img class="showcase-image" src="still-rhythm-web-feature-breathe-1600x1000.webp" width="1600" height="1000" loading="lazy" alt="Still RhythmのBreathe画面">
+        </figure>
       </div>
     </section>
 
